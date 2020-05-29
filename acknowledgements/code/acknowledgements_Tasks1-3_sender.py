@@ -16,16 +16,6 @@ def sendWithError(message, error):
         return True
     return False
 
-# TASK 1 #
-my_address = "JG"
-their_address = "CS"
-header = my_address + their_address
-
-retransmissions = 0
-number = 1
-received_ack = False
-total_retransmissions = 0
-
 # TASK 2 #
 while True:
     # For each message sent, if no reply within 100ms the message is sent again
